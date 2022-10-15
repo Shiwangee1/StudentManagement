@@ -15,6 +15,8 @@ public interface StudentDao {
 	
 	
 	public String deleteStudentById(int id);
+	
+	public List<Student> studentByCourse(int id);
     
 	
 
